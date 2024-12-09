@@ -1,0 +1,76 @@
+h6{
+    font-size: 15px;
+}
+
+p{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.profile-btn a{
+    font-size: 10px;
+}
+.profile-sec{
+    background-color: #2a3042;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.profile-left img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.social-icon i{
+    height: 30px;
+    width: 30px;
+    background: cornflowerblue;
+    border-radius: 50px;
+    padding-top: 5px;
+}
+.social-icon-top i{
+    height: 30px;
+    width: 30px;
+    background: rgb(85 110 230);
+    border-radius: 50px;
+    padding-top: 7px;
+}
+.social-icon-midle i{
+    height: 30px;
+    width: 30px;
+    background:rgb(80 165 241);
+    border-radius: 50px;
+    padding-top: 7px;
+}
+.social-icon-bottom i{
+    height: 30px;
+    width: 30px;
+    background: rgb(232 62 140);
+    border-radius: 50px;
+    padding-top: 7px;
+}
+.profile-right i{
+    background-color: #556ee6;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-left: 9px;
+}
+.profile-img img{
+    height: 300px;
+    width: 100%;
+}
+.activity-left i{
+    font-size: 12px;
+    border: 2px solid;
+    border-radius: 60px;
+    padding: 2px;
+}
+.activity-center i{
+    font-size: 12px;
+}

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import "./News.css";
 import img2 from "../Images/news.jpg";
 import img3 from "../Images/voice3.webp";
-import img4 from "../Images/voice4.webp";
 import img5 from "../Images/voice5.webp";
 
 const News = () => {
@@ -148,10 +147,10 @@ const News = () => {
               <div className="pt-3 pb-3">
                 <h2 className="news-h2">TAGS</h2>
                 <div className="Tags-sec bg-white p-3 d-flex">
-                  <span className="me-3  border p-1">Politics</span>
-                  <span className="me-3 border p-1">Business</span>
-                  <span className="me-3 border p-1">Corporate</span>
-                  <span className="me-3 border p-1">Business</span>
+                  <span className=" border p-1">Politics</span>
+                  <span className=" border p-1">Business</span>
+                  <span className="border p-1">Corporate</span>
+                  <span className=" border p-1">Business</span>
                   </div>
                  
                   

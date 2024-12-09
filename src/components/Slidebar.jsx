@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaHome, FaNotesMedical, FaUserFriends, FaCalendarAlt, FaEnvelope, FaHotel, FaNewspaper } from "react-icons/fa";
+import { FaHome, FaNotesMedical, FaUserFriends, FaCalendarAlt, FaEnvelope, FaHotel, FaNewspaper,  FaCloudSun} from "react-icons/fa";
 import "./Slidebar.css";
 
 const Slidebar = ({ isCollapsed }) => {
@@ -41,6 +41,11 @@ const Slidebar = ({ isCollapsed }) => {
           <li>
             <Link to="/news">
               <FaNewspaper /> <span className="menu-text">News</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="/weather">
+              <FaCloudSun /> <span className="menu-text">Weather</span>
             </Link>
           </li>
         </ul>
